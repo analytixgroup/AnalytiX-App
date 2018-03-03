@@ -1,0 +1,20 @@
+{
+    "name": "AnalytiX App",
+    "description": "Be quicker with us",
+    "browser_action": {
+        "default_icon": {
+            "16": "assets/img/AnalytixMark16x16.png",
+            "32": "assets/img/AnalytixMark32x32.png",
+            "64": "assets/img/AnalytixMark64x64.png",
+            "128": "assets/img/AnalytixMark128x128.png"
+            }, 
+        "default_title": "AnalytiX App",
+        "default_popup": "main.html"
+    }, 
+    "manifest_version": 2,
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "content_security_policy": "http://code.jquery.com/jquery.js",
+    "version": "0.1"
+}
+
+

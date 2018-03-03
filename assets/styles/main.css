@@ -1,0 +1,57 @@
+.section-main {
+    text-align: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    padding: 40px 0 100px;
+}
+
+.line img {
+    height: 90px;
+    margin-left: 40px;
+    transition: 3.5s ease-in-out;
+}
+
+.line img.-rotate {
+    transform: rotate(360deg);
+}
+
+.main-title {
+    margin: 20px;
+}
+
+.main-title h1 {
+    color: white;
+    font-size: 38px;
+}
+
+.buttons {
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+
+.button h2 {
+    color: white;
+    line-height: 30px;
+}
+
+.button h2:hover {
+    color: #33ccff;
+}
+.button:hover {
+    background-color: white;
+}

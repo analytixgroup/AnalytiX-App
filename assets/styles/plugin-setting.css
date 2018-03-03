@@ -1,0 +1,22 @@
+body, h1, h2, h3, h4, p, a, i, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+input, button {
+    outline: none;
+    border: none;
+}
+
+body {
+    width: 600px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
